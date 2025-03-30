@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import java.util.Map;
 
-@CrossOrigin(origins = "*") // Allow all origins (temporary solution)
+//@CrossOrigin(origins = "*") // Allow all origins (temporary solution)
 @RestController
 @RequestMapping("/api")
 public class ChallengeController {
