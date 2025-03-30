@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.Map;
 
 //@CrossOrigin(origins = "*") // Allow all origins (temporary solution)
+@CrossOrigin(origins = "https://titto-esports-4.onrender.com") // Allow ONLY your frontend
 @RestController
 @RequestMapping("/api")
 public class ChallengeController {
